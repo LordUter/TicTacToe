@@ -19,14 +19,10 @@ public class GameController : MonoBehaviour
 {
     public Text[] buttonList;
     private string playerSide;
-
     public GameObject gameOverPanel;
     public Text gameOverText;
-
     private int moveCount;
-
     public GameObject restartButton;
-
     public Player playerX;
     public Player playerO;
     public PlayerColor activePlayerColor;
